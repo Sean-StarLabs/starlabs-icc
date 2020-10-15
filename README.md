@@ -4,15 +4,29 @@ An ICC profile will tune your display to output colours as accurately as possibl
 
 On Debian based distributions (which includes Ubuntu, Linux Mint, elementary OS and Zorin OS), you can install the ICC Color Profiles by entering the below commands into a terminal window:
 
-`sudo add-apt-repository ppa:starlabs/ppa`
-`sudo apt install starlabs-icc`
+```
+sudo add-apt-repository ppa:starlabs/ppa
+sudo apt install starlabs-icc
+```
+
 On Manjaro, you can use the below command:
 
-`sudo pacman -Syu starlabs-icc`
+```
+sudo pacman -Syu starlabs-icc
+```
+
 Or, if you would prefer to use pamac: 
 
-`pamac install starlabs-icc`
+```
+pamac install starlabs-icc
+```
+
 For other distributions, you can download the Colour Profiles using the links below:
+[Star Lite Mk II](ICC/StarLiteMkII.icc)
+[Star Lite Mk III](ICC/StarLiteMkIII.icc)
+[Star LabTop Mk III](ICC/StarLabTopMkIII.icc)
+[Star LabTop Mk IV](ICC/StarLabTopMkIV.icc)
+
 
 
 Once the profiles are installed, you need to select them under Device Colour Profiles which is found under Settings.
@@ -22,8 +36,6 @@ Once the profiles are installed, you need to select them under Device Colour Pro
 Click Add Profile and then select the correct profile for your laptop, such as StarLiteMkII.
 
 ![Active](Screenshots/icc2.png)
-
-![Session](Screenshots/Session.png)
 
 ## Copying or Reusing
 
