@@ -22,9 +22,13 @@ pamac install starlabs-icc
 ```
 
 For other distributions, you can download the Colour Profiles using the links below:
+
 [Star Lite Mk II](ICC/StarLiteMkII.icc)
+
 [Star Lite Mk III](ICC/StarLiteMkIII.icc)
+
 [Star LabTop Mk III](ICC/StarLabTopMkIII.icc)
+
 [Star LabTop Mk IV](ICC/StarLabTopMkIV.icc)
 
 
